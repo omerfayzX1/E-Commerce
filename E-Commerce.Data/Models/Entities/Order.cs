@@ -14,7 +14,6 @@ namespace E_Commerce.Data.Models.Entities
         public decimal Total { get; set; }
         public DateTime OrderDate { get; set; }
         public EnumOrderState  OrderState { get; set; }
-
         public string Username { get; set; }
         public string AddressTitle { get; set; }
         public string Address { get; set; }
